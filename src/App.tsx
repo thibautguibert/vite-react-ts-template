@@ -1,6 +1,7 @@
-import { useState } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,15 +25,15 @@ function App() {
           >
             Vite Docs
           </a>
-          {' | '}
+          {" | "}
           <a className="App-link" href="https://github.com/typicode/husky" target="_blank" rel="noopener noreferrer">
             Husky Docs
           </a>
-          {' | '}
+          {" | "}
           <a className="App-link" href="https://github.com/airbnb/javascript" target="_blank" rel="noopener noreferrer">
             Airbnb JS Style Guide
           </a>
-          {' | '}
+          {" | "}
           <a
             className="App-link"
             href="https://github.com/airbnb/javascript/tree/master/react"
@@ -41,7 +42,7 @@ function App() {
           >
             Airbnb React Style Guide
           </a>
-          {' | '}
+          {" | "}
           <a
             className="App-link"
             href="https://github.com/alessandropisu/vite-react-ts-minimal-template"
