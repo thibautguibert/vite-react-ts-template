@@ -5,7 +5,9 @@ const THEME = {
   colors: {
     lavender: "lavender",
   },
-  spacing: {},
+  spacing: {
+    l: "1em",
+  },
 };
 
 interface IProps {

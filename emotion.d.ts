@@ -4,8 +4,8 @@ declare module "@emotion/react" {
   export interface Theme {
     colors: Record<string, string>;
     fontFamily?: Record<string, string>;
-    screens: Record<string, string>;
-    spacing?: Record<string, unknown>;
-    radius?: Record<string, unknown>;
+    screens?: Record<string, string>;
+    spacing: Record<string, string>;
+    radius?: Record<string, string>;
   }
 }
