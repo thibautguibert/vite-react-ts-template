@@ -4,3 +4,8 @@
 
 # yarn.lock
 yarn.lock
+
+.lintstagedrc
+.prettierignore
+
+/assets/*

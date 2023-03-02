@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-import logo from "./logo.svg";
-import "./App.css";
+import "@components/App.css";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -9,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>Vite + React + TypeScript + Airbnb + Husky = 🔥</p>
         <p>
           <button className="rainbow-button" type="button" onClick={() => setCount((prevCount) => prevCount + 1)}>
