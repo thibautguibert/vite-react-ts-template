@@ -1,7 +1,8 @@
 # Vite + React + TypeScript + Emotion + ESlint + Jest + Prettier + Husky
 
 A modern Vite + React + TypeScript template with pre-configured ESLint (with Airbnb JS/React rules), Prettier and Git hooks powered by Husky out of the box 📦
-Additional libraries fro initial template: Emotion (css-in-jss), and Jest (testing).
+
+Additional libraries from initial template: Emotion (css-in-jss), and Jest (testing).
 
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
